@@ -1,0 +1,23 @@
+{
+  "name": "connect-holland-mixins",
+  "version": "1.0.0",
+  "authors": [
+    "Arjen Smit <arjen@Connectholland.nl>"
+  ],
+  "description": "A collection of mixins used in windmill projects",
+  "main": "connectholland/connectholland.js",
+  "keywords": [
+    "sass",
+    "mixins"
+  ],
+  "license": "Connect Holland",
+  "homepage": "www.connectholland.nl",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
