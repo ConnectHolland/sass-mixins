@@ -1,17 +1,19 @@
 {
-  "name": "connect-holland-mixins",
+  "name": "connectholland-sass-mixins",
   "version": "1.0.0",
+  "homepage": "https://github.com/ConnectHolland/sass-mixins",
   "authors": [
-    "Arjen Smit <arjen@Connectholland.nl>"
+    "Arjen Smit <arjen@alnitak.nl>",
+    "Giso Stallenberg <giso@conectholland.nl>"
   ],
-  "description": "A collection of mixins used in windmill projects",
-  "main": "connectholland/connectholland.js",
+  "description": "A collection of mixins used in Connect Holland projects",
+  "main": "connectholland/all.scss",
   "keywords": [
     "sass",
+    "scss",
     "mixins"
   ],
-  "license": "Connect Holland",
-  "homepage": "www.connectholland.nl",
+  "license": "MIT",
   "private": true,
   "ignore": [
     "**/.*",
