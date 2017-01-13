@@ -1,0 +1,10 @@
+@mixin inline-block($vertical-align: false) {
+	display: inline-block;
+	@if $vertical-align != false {
+		vertical-align: $vertical-align;
+	}
+	html.ie7 & {
+		display: inline;
+		zoom: 1;
+	}
+}
