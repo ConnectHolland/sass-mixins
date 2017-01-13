@@ -1,0 +1,12 @@
+@mixin border-radius($tl-radius: false, $tr-radius: false, $br-radius: false, $bl-radius: false) {
+	@if $tr-radius == false {
+		-webkit-border-radius: #{$tl-radius};
+		-moz-border-radius: #{$tl-radius};
+		border-radius: #{$tl-radius};
+	}
+	@else {
+		-webkit-border-radius: #{$tl-radius} #{$tr-radius} #{$br-radius} #{$bl-radius};
+		-moz-border-radius: #{$tl-radius} #{$tr-radius} #{$br-radius} #{$bl-radius};
+		border-radius: #{$tl-radius} #{$tr-radius} #{$br-radius} #{$bl-radius};
+	}
+}
